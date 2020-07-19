@@ -1,0 +1,72 @@
+.entrance {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  display: block;
+  width: 30px;
+  height: 10px;
+  border-radius: 20px;
+  background-color: rgb(166, 84, 214);
+  overflow: hidden;
+  background: linear-gradient(
+    45deg,
+    #f17c58,
+    #e94584,
+    #24aadb,
+    #27dbb1,
+    #ffdc18,
+    #ff3706
+  );
+  background-size: 600% 100%;
+  animation: gradient 16s linear infinite;
+  animation-direction: alternate;
+  transition: all ease-in .3s;
+  z-index: 100;
+}
+.open {
+  z-index: 100;
+  transform: rotate(0) translateY(0);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+.topMask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(172, 65, 65);
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  transform: translateX(60px) translateY(104px);
+  background-color: #fff;
+}
+.trigger {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  background: linear-gradient(
+    45deg,
+    #f17c58,
+    #e94584,
+    #24aadb,
+    #27dbb1,
+    #ffdc18,
+    #ff3706
+  );
+  background-size: 600% 100%;
+  animation: gradient 16s linear infinite;
+  animation-direction: alternate;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}

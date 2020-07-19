@@ -1,0 +1,26 @@
+.logo {
+  margin: 0 0 1.5rem 0;
+  padding-top: 1rem;
+  font-size: 1.8em;
+  text-align: center;
+}
+.smallLogo {
+  margin: 0 0 1.5rem 0;
+  padding-top: 1rem;
+  font-size: 1em;
+  text-align: center;
+}
+.container {
+  position: relative;
+}
+.footer {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    font-size: 0.8rem;
+  }
+}

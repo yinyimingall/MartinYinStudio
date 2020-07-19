@@ -1,0 +1,10 @@
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    transition: all ease-in-out .3s;
+    &:hover {
+        transform: scale(3) translateX(12px);
+        margin-right: 80px;
+    }
+}

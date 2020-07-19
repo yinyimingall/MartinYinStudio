@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        font-size: 108.333px;
+        font-family: "PingFang SC";
+      }
+
+      .cls-2 {
+        fill: #546bcf;
+      }
+
+      .cls-3 {
+        fill: #dc4131;
+      }
+    </style>
+  </defs>
+  <text id="Martin" class="cls-1" x="79.563" y="543.953">Martin</text>
+  <text id="Yin" class="cls-2" x="419.844" y="545.141">Yin</text>
+  <text id="Studio" class="cls-3" x="611.031" y="543.039">Studio</text>
+</svg>
